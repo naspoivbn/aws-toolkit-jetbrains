@@ -13,6 +13,8 @@ env:
 
 phases:
   install:
+    commands:
+      - choco install -y --no-progress codecov
     runtime-versions:
       dotnet: 2.2
 
